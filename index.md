@@ -3,10 +3,13 @@ layout: default
 title: Living Planet Symposium 2025
 ---
 
+<link rel="stylesheet" href="/assets/style.css">
+
 # My Sessions
 
 <ul>
-{% for session in site.data.sessions %}
+{% assign sorted_sessions = site.data.sessions | sort: "date" %}
+{% for session in sorted_sessions %}
   <li>
     <strong>{{ session.title }}</strong><br>
     Date: {{ session.date }}<br>
