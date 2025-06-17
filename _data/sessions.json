@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Session 1",
+    "date": "2025-06-18",
+    "time": "10:00 AM",
+    "location": "Room A"
+  },
+  {
+    "title": "Session 2",
+    "date": "2025-06-19",
+    "time": "2:00 PM",
+    "location": "Room B"
+  }
+]
